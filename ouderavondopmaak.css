@@ -1,0 +1,168 @@
+body
+{
+    background-color: rgb(10, 110, 7);
+}
+
+/* top bar */
+.fotometbar {
+    display: block;
+    text-align: left;
+    position: relative;
+    border-bottom: 2px solid black;
+  }
+  a:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 90px;
+    background: white;
+    z-index: -1;
+  }
+
+  img
+  {
+      margin-top: 5px;
+      margin-left: 5px;
+  }
+
+/* nav menu */
+
+li
+{
+  float: left;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  border-right: 1px solid black;
+}
+
+a
+{
+  display: block;
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+ul
+{
+  background-color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+li a 
+{
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover
+{
+  background-color: rgba(185, 185, 185, 0.658);
+}
+
+li a:active
+{
+  background-color: rgba(185, 185, 185, 0.658);
+}
+
+/* tekst */
+
+h1
+{
+  text-align: left;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000000;
+}
+
+p
+{
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif ;
+}
+
+.inhoud
+{
+  background-color: white;
+  width: auto;
+  padding: 50px;
+  margin: 10px;
+}
+
+.container
+{
+  display: flex;
+  align-items: initial;
+  justify-content: left;
+}
+
+#pngvantekst
+{
+  max-width: 100%;
+  height: 250px;
+}
+
+.pngmettekst
+{
+  flex-basis: 25%;
+}
+
+.tekstmetpng
+{
+  padding-left: 20px;
+}
+
+#projecten
+{
+  border: 1px solid black;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  width: 50%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#leerjaar
+{
+  border-bottom: 1px solid black;
+}
+
+#leerjaar2
+{
+  border-bottom: 1px solid black;
+}
+
+#leerjaar3
+{
+  border-bottom: 1px solid black;
+}
+
+#rooster
+{
+  border: 1px solid black;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+#dag1,#dag2,#dag3,#dag4,#dag5
+{
+  border: 1px solid black;
+}
+
+th
+{
+  border-right: 1px solid black;
+}
